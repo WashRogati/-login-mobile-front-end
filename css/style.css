@@ -2,23 +2,79 @@
     margin: 0px;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins";
+    text-decoration: none;
 }
 
 body{
     width: 100%;
     height: 100vh;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    background-color: aqua;
+    background-color: black;
 }
 
-.mobile-ui{
+header{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header > img{
+    width: 110px;
+    height: 110px;  
+    margin: 30px;
+}
+
+header > a{
+    align-self: start;
+    color: blue;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.container{
+    margin-top: 20px;
     width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
 
+.fast-login > a > button {
+    width: 80vw;
+    height: 60px;
+    background-color: aliceblue;
+    margin-bottom: 18px;
+    border-radius: 12px;
+    border:none;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fast-login a > button > i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.login-default > a > button{
+    width: 80vw;
+    height: 60px;
+    background: linear-gradient(to right, blue, magenta);
+    border-radius: 12px;
+    border:none;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    margin-top: 0px;
+}
+
+button{
+    cursor: pointer;
 }
