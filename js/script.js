@@ -2,7 +2,11 @@ function Error(){
     alert("NAO FUNCIONA AINDA!")
 }
 
-function login(){
-    var login = document.querySelector[".container"];
-    var btn = document.querySelector[""]
+window.onload = function() {
+    var div = document.querySelector(".mobile-ui");
+    var input = document.querySelector(".btn");
+
+    input.onclick = function() {
+         div.style.display = "none";
+    }
 }
