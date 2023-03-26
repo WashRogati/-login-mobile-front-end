@@ -11,7 +11,7 @@
     <script type="text/javascript" src="/js/script.js"></script>
 </head>
 
-<body>
+<body onload='btns()'>
     <div class="screen">
         <div class="left-side">
             <header>
@@ -40,10 +40,10 @@
                                 Facebook</button></a>
                     </div>
                     <div class="login-default">
-                        <a href="#" class="btn"><button>Log In with E-Mail</button></a>
+                        <a href="#" id="btnsignin"><button>Log In with E-Mail</button></a>
                     </div>
                     <div class="new-account">
-                        <h3>New account? <a href="#" id="signup">Create Account</a></h3>
+                        <h3>New account? <a href="#" id="btnsignup">Create Account</a></h3>
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@
                     <input type="password" placeholder="Password">
                     <input type="submit" value="Create an Account">
                     <div class="new-account">
-                        <h3>Already have an account? <a href="#" id="login">Login</a></h3>
+                        <h3>Already have an account? <a href="#" id="btnsignini">Login</a></h3>
                     </div>
                 </form>
             </div>
@@ -65,6 +65,9 @@
                     <input type="email" placeholder="E-mail">
                     <input type="password" placeholder="Password">
                     <input type="submit" value="Create an Account">
+                    <div class="new-account">
+                        <h3>New account? <a href="#" id="btnsignupi">Create Account</a></h3>
+                    </div>
                 </form>
             </div>
         </div>

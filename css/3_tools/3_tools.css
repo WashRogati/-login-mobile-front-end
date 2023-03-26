@@ -129,4 +129,15 @@ header > a:hover{
     }
 } 
 
+.container > input[type="submit"]{
+    background: linear-gradient(to left, #5C0075, #f500d4, #420075);
+}
+
+.container > input[type="submit"]{
+    animation-duration: 9s;
+    animation-name: mygradient;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-size: 2000% 100%;
+}
 
