@@ -1,3 +1,8 @@
 button{
     cursor: pointer;
 }
+
+
+.container > input[type="submit"]{
+    background-image: linear-gradient(to right, blue, magenta);
+}
